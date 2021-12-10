@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lato",sans-serif;
+}
+
+.waiting{
+    
+    height: 65vh;
+}
+h2{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 15px;
+    
+    
+}
+.comming-soon{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.day,.hour,.minute,.second{
+    font-size: 2rem;
+
+
+}
